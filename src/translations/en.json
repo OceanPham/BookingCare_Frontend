@@ -1,0 +1,55 @@
+{
+    "homeHeader": {
+        "specialty": "Specialty",
+        "findDoctorBySpecialty": "Find doctor by specialty",
+        "medicalFacility": "Medical facility",
+        "chooseHospital": "Choose hospital or clinic",
+        "doctor": "Doctor",
+        "chooseGoodDoctor": "Choose a good doctor",
+        "healthPackage": "Health package",
+        "generalHealthCheck": "General health check",
+        "support": "Support",
+        "welcome": "Welcome"
+    },
+    "banner": {
+        "platform": "MEDICAL PLATFORM",
+        "comprehensiveCare": "COMPREHENSIVE HEALTHCARE",
+        "searchPlaceholder": "Input name to search",
+        "specializedExamination": "Specialized examination",
+        "remoteExamination": "Remote examination",
+        "generalExamination": "General examination",
+        "medicalTesting": "Medical testing",
+        "mentalHealth": "Mental health",
+        "dentalExamination": "Dental examination"
+    },
+    "menu": {
+        "admin": {
+            "user": "Users System",
+            "manage-user": "Manage User",
+            "manage-doctor": "Manage Doctor",
+            "manage-admin": "Manage Admin",
+            "crud": "CRUD user",
+            "crud-redux": "CRUD redux",
+            "clinic": "Clinic",
+            "manage-clinic": "Manage clinic",
+            "specialty": "Specialty",
+            "manage-specialty": "Manage specialty",
+            "handbook": "Handbook",
+            "manage-handbook": "Manage handbook"
+        }
+    },
+    "manage-user": {
+        "add": "Add new user",
+        "email": "Email",
+        "password": "Password",
+        "first-name": "First name",
+        "last-name": "Last name",
+        "phone-number": "Phone number",
+        "address": "Address",
+        "gender": "Gender",
+        "position": "Position",
+        "role": "Role",
+        "image": "Image",
+        "save": "Save"
+    }
+}

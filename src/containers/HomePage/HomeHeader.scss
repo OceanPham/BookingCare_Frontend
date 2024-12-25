@@ -1,0 +1,201 @@
+.home-header-container {
+    height: 60px;
+    width: 100%;
+    padding: 0 40px;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 1000;
+
+    .home-header-content {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        padding: 0px 20px;
+
+        .left-content {
+            width: 25%;
+            display: flex;
+            align-items: center;
+
+            .logo-image {
+                background: url('../../assets/logo.png') center center no-repeat;
+                width: 65%;
+                height: 100%;
+                cursor: pointer;
+            }
+
+            i {
+                cursor: pointer;
+                font-size: 25px;
+                color: gray;
+            }
+        }
+
+        .center-content {
+            width: 50%;
+
+            .child-content {
+                .subs-title {
+                    font-weight: 400;
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .right-content {
+            width: 25%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            cursor: pointer;
+
+            i {
+                font-size: 15px;
+                margin-right: 5px;
+            }
+
+            .support {
+                padding-right: 50px;
+                display: flex;
+                align-items: center;
+            }
+
+            .language-vn {
+                cursor: pointer;
+                opacity: 0.2;
+
+                &.active {
+                    opacity: 1;
+
+                    span {
+                        color: orange;
+                    }
+                }
+
+                &:hover {
+                    opacity: 0.8;
+                }
+
+            }
+
+            .language-en {
+                cursor: pointer;
+                margin: 0 10px;
+                opacity: 0.2;
+
+                &.active {
+                    opacity: 1;
+
+                    span {
+                        color: blue;
+                    }
+                }
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}
+
+.home-header-banner {
+    background: url('../../assets/background.png');
+    height: 530px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+
+    .content-up {
+        height: 65%;
+        padding-top: 15px;
+
+        .title1 {
+            text-align: center;
+            font-size: 30px;
+            text-shadow: 1px 1px 1px #333;
+            margin-bottom: 5px;
+            color: white;
+            margin-top: 30px;
+        }
+
+        .title2 {
+            text-align: center;
+            font-size: 30px;
+            text-shadow: 1px 1px 1px #333;
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        .search {
+            width: fit-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            padding: 10px;
+            border-radius: 25px;
+            background-color: #f7d800;
+
+            i {
+                margin: 0 5px;
+            }
+
+            input {
+                height: 30px;
+                width: 300px;
+                background: transparent;
+                outline: none;
+                border: none;
+            }
+        }
+    }
+
+    .content-down {
+        height: 35%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        background: linear-gradient(180deg, #e3dfdf00, #ffffff 50%);
+        padding-bottom: 10px;
+
+        .options {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+
+            .option-child {
+                width: 100px;
+
+                .icon-child {
+                    background-color: white;
+                    width: 40px;
+                    height: 40px;
+                    padding: 10px;
+                    border-radius: 50%;
+                    text-align: center;
+                    margin: 0 auto;
+
+                    i {
+                        font-size: 20px;
+                        color: #49bce2;
+                    }
+                }
+
+                .text-child {
+                    font-size: 17px;
+                    font-weight: 500;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: #49bce2;
+                    }
+                }
+            }
+        }
+    }
+}
